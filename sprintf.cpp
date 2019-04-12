@@ -15,3 +15,22 @@ int main()
 	return 0;
 	
 }
+/*
+void main()
+{
+	cv::Mat a;
+	cv::Mat b;
+	for (int i = 56; i < 77; i++)
+	{
+		char savefile[200];
+		char read[200];
+		sprintf(read, "G:/CPro/data/colorImage/%d.jpg", i);
+		a=cv::imread(read);
+		cv::cvtColor(a, b, CV_RGB2GRAY);
+		
+		sprintf(savefile, "G:/CPro/data/gray/%d.jpg", i);
+
+		cv::imwrite(savefile, b);
+	}
+}
+*/
